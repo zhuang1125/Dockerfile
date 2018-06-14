@@ -19,7 +19,8 @@ RUN wget https://github.com/jumpserver/jumpserver/archive/master.zip -O /opt/jum
 RUN wget https://github.com/jumpserver/coco/archive/master.zip -O /opt/coco.zip
 RUN wget https://github.com/jumpserver/luna/archive/master.zip -O /opt/luna.tar.gz
 #RUN unzip coco.zip && mv coco-master coco && unzip jumpserver.zip && mv jumpserver-master jumpserver &&  tar xvf luna.tar.gz 
-RUN unzip coco.zip && mv coco-master coco && unzip jumpserver.zip && mv jumpserver-master jumpserver && tar xzf luna.tar.gz && mv luna-master luna 
+RUN unzip coco.zip && mv coco-master coco && unzip jumpserver.zip && mv jumpserver-master jumpserver && tar xzf luna.tar.gz
+
 
 
 
